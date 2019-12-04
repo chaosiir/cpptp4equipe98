@@ -1,0 +1,17 @@
+# Jetbrain Rider Cache
+.idea/
+cmake-build-debug/
+Assets/Plugins/Editor/JetBrains*
+
+# Visual Studio Code
+.vscode/
+
+# file: ~/.gitignore_global
+.DS_Store
+.idea
+
+# Visual Studio cache directory
+.vs/
+
+
+
