@@ -18,7 +18,8 @@ namespace saaq {
  * \param[in] p_nbEssieux un entier superieur à 1 indiquant le nombre d'essieux du vehicule
  * \pre le niv ,le nbPlaces et l'immatriculation sont valide
  */
-Camion::Camion(const std::string &p_niv, const std::string &p_immatriculation, int p_poids, int p_nbEssieux):
+Camion::Camion(const std::string& p_niv, const std::string& p_immatriculation,
+		int p_poids, int p_nbEssieux) :
 		Vehicule::Vehicule(p_immatriculation,p_niv), m_poids(p_poids), m_nbEssieux(p_nbEssieux) {
 	INVARIANTS();
 

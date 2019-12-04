@@ -14,4 +14,7 @@ Assets/Plugins/Editor/JetBrains*
 .vs/
 
 
+#floobits
+.floo
+.flooignore
 
